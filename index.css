@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Smythe, cursive;
+}
+
+main, footer, .modal {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+header img{
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icon-and-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description {
+    align-self: left;
+    padding: 20px;
+    display: block;
+}
+
+.icon {
+    font-size: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.add-to-cart {
+    padding: 0 20px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    background: white;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.price {
+    font-weight: bold
+}
+
+hr {
+    margin: 0 20px ; 
+}
+
+footer h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove {
+    background: white;
+    border: none;
+    color: lightgray;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.complete-order, .pay {
+    display: block;
+    margin: 0 auto;
+    background: lightgreen;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.modal {
+    position: fixed;
+    font-family: sans-serif;
+    visibility: hidden;
+    max-width: 400px;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 0 50px;
+    padding: 20px;
+    background: white;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.modal h1 {
+    text-align: center;
+}   
+
+input {
+    display: block;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.receipt {
+    padding: 25px 30px;
+    background: #ECFDF5;
+    color: #065F46;
+}
