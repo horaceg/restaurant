@@ -2,8 +2,6 @@ import { menuArray } from "/data.js"
 const main = document.querySelector("main")
 const footer = document.querySelector("footer")
 
-// let order = menuArray.map(x => {x.id: 0})
-// console.log(order)
 
 function renderInit() {
     for (let item of menuArray) {
